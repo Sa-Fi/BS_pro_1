@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.title h3 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+.title span {
+  width: 100px;
+  display: block;
+  height: 2px;
+  background-color: orangered;
+}
+/* Home section */
+/*  navbar */
+.bg-black {
+  background-color: rgba(14, 14, 14, 1);
+}
+.carousel-caption {
+  top: 300px;
+}
+.bg-orange {
+  background-color: #f0644f;
+  color: aliceblue;
+  font-weight: 600;
+  text-align: center;
+}
+.m-right {
+  border: 2px solid #f0644f;
+  border-right: 2px solid white;
+}
+
+/* LADIES SECTION  */
+.bg-light-gray {
+  background-color: rgba(111, 111, 111, 0.09);
+}
+.ladies-item h5 {
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: bolder;
+}
+.ladies-item p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+/* WANTED SECTION */
+.img-fit {
+  width: 100px;
+  height: 100px;
+}
+.media h5 {
+  font-size: 20px;
+  font-family: "Potta One", cursive;
+}
+.media h6 {
+  font-family: "Roboto", sans-serif;
+}
+.scrap-onSale-title h3 {
+  font-size: 23px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+.scrap-onSale-title span {
+  width: 100px;
+  display: block;
+  height: 2px;
+  background-color: greenyellow;
+}
+/* BLOG SECTION  */
+.img-blog {
+  width: 140px;
+  height: 120px;
+}

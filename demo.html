@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+<!-- font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Potta One', cursive;
+font-family: 'Roboto', sans-serif; -->
+
+<head>
+    <title>
+        E Commerce Website
+    </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- external file -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076498c46.js" crossorigin="anonymous"></script>
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600;700&family=Montserrat:ital,wght@0,400;1,100;1,200;1,300&family=Oswald:wght@200;300;500;600&family=Potta+One&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <!-- aos animation  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div class="header-top">
+        <div class="container-fluid bg-dark text-light">
+            <div class="row py-1">
+                <div class="col-md-5 ml-4">
+                    <div class="header-icon">
+                        <i class="fa fa-envelope-o"></i>
+                        ullahsafi477@gmail.com
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <i class="fas fa-user-circle"></i>
+                    Account
+                </div>
+                <div class="col-md-2">
+                    <i class="fas fa-cart-plus"></i>
+                    My Cart-$0.00
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid bg-black">
+        <nav class=" container navbar navbar-expand-lg navbar-dark bg-black">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <section id="home">
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/carousel1.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>BEST WINTER COLLECTION</h2>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <a href="#" class="btn btn-outline-warning">SHOP NoW</a>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/carousel3.jpeg" class="d-block w-100" alt="...">
+                        <div class=" carousel-caption 2 d-none d-md-block">
+                            <h2>BEST WINTER COLLECTION</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-outline-warning">SHOP NoW</a>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="container-fluid offer bg-orange py-3 d-none d-md-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 m-right">
+                        <h4>FREE SHOPPING</h4>
+                        <P>ON ALL order 90%</P>
+                    </div>
+                    <div class="col-md-4 m-right">
+                        <h4>CALL US ANYTIME</h4>
+                        <P>+787787878</P>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>OUR LOCATION</h4>
+                        <P>ON ALL order 90%</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LADIES SECTION -->
+    <div class="container-fluid bg-light-gray">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="title">
+                    <h3>ALL LADIES TOP</h3>
+                    <span></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mt-5 pb-5">
+                <div class="col-md-3" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card text-center">
+                        <img src="image/L-card-1.jpeg" class="card-img-top" alt="">
+                        <div class="card-body ladies-item">
+                            <h5>White Top</h5>
+                            <p>$24.00</p>
+                            <button class="btn btn-warning"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="card text-center">
+                        <img src="image/L-card-2.jpeg" class="card-img-top" alt="">
+                        <div class="card-body ladies-item">
+                            <h5>Sky Top</h5>
+                            <p>$34.00</p>
+                            <button class="btn btn-warning"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="card text-center">
+                        <img src="image/L-card-3.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5>Bulbet Top</h5>
+                            <p>$30.00</p>
+                            <button class="btn btn-warning"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="card text-center">
+                        <img src="image/L-card-4.jpeg" class="card-img-top" alt="">
+                        <div class="card-body ladies-item">
+                            <h5>Red Top</h5>
+                            <p>$40.00</p>
+                            <button class="btn btn-warning"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SHOES SECTION -->
+    <div class="container-fluid bg-light-gray">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="title">
+                    <h3>HGH HEEL SHOES</h3>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mt-5 pb-5">
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <img src="image/show 1.jpg" class="card-img-top" alt="">
+                        <div class="card-body  ladies-item">
+                            <h5>Black Shoes</h5>
+                            <p>$43.00</p>
+                            <button class="btn btn-info"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <img src="image/show 2.jpg" class="card-img-top" alt="">
+                        <div class="card-body ladies-item">
+                            <h5>Red Shoes</h5>
+                            <p>$34.00</p>
+                            <button class="btn btn-info"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <img src="image/show 3.jpg" class="card-img-top" alt="">
+                        <div class="card-body ladies-item">
+                            <h5>Modern Shoes</h5>
+                            <p>$50.00</p>
+                            <button class="btn btn-info"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <img src="image/show 4.jpg" class="card-img-top" alt="">
+                        <div class="card-body ladies-item">
+                            <h5>Hight Hill Shoes</h5>
+                            <p>$55.00</p>
+                            <button class="btn btn-info"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- POPULER SECTION  -->
+    <div class="container-fluid py-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="title">
+                        <h3>MOST WANTED</h3>
+                        <span></span>
+                    </div>
+
+                    <div class="media mt-5 mb-2">
+                        <img src="image/wanted-1.jpg " class="img-fit mr-4" alt="">
+                        <div class="media-body">
+                            <h5>FITT belts</h5>
+                            <h6>$36.00</h6>
+                            <button class="btn btn-success"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="media mt-5 mb-2">
+                        <img src="image/wanted-2.jpg " class="img-fit mr-4" alt="">
+                        <div class="media-body">
+                            <h5>Mgnolia Dress</h5>
+                            <h6>$40.00</h6>
+                            <button class="btn btn-success"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="media mt-5 mb-2">
+                        <img src="image/wanted-3.jpg " class="img-fit mr-4" alt="">
+                        <div class="media-body">
+                            <h5>Rocadi jeans</h5>
+                            <h6>$42.00 <strike>50.00</strike></h6>
+                            <button class="btn btn-success"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="scrap-onSale-title">
+                        <h3>SCRAFS</h3>
+                        <span></span>
+                    </div>
+
+                    <div class="media mt-5 mb-2">
+                        <img src="image/srf-1.jpg " class="img-fit mr-4" alt="">
+                        <div class="media-body">
+                            <h5>Istwic Scraf</h5>
+                            <h6>$26.00</h6>
+                            <button class="btn btn-secondary"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="media mt-5 mb-2">
+                        <img src="image/srf-2.jpg " class="img-fit mr-4" alt="">
+                        <div class="media-body">
+                            <h5>Jenifar Scraf</h5>
+                            <h6>$22.00</h6>
+                            <button class="btn btn-secondary"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="media mt-5 mb-2">
+                        <img src="image/srf-3.jpg" class="img-fit mr-4" alt="">
+                        <div class="media-body">
+                            <h5>Andora Scraf</h5>
+                            <h6>$23.00 <strike>30.00</strike>
+                            </h6>
+                            <button class="btn btn-secondary"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="scrap-onSale-title">
+                        <h3>ON SALE</h3>
+                        <span class="bg-primary"></span>
+                    </div>
+
+                    <div class="media mt-5 mb-2">
+                        <img src="image/OS-1.jpg " class="img-fit mr-4" alt="">
+                        <div class="media-body">
+                            <h5>MARINA style</h5>
+                            <h6>$50.00</h6>
+                            <button class="btn btn-dark"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="media mt-5 mb-2">
+                        <img src="image/OS-2.jpg " class="img-fit mr-4" alt="">
+                        <div class="media-body">
+                            <h5>Jenifar Style</h5>
+                            <h6>$40.00</h6>
+                            <button class="btn btn-dark"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="media mt-5 mb-2">
+                        <img src="image/OS-3.jpg" class="img-fit mr-4" alt="">
+                        <div class="media-body">
+                            <h5>Malago Style</h5>
+                            <h6>$40.00</h6>
+                            <button class="btn btn-dark"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FEATURE SECTION -->
+    <div class="container-fluid bg-light-gray">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="title">
+                    <h3>FEATURE</h3>
+                    <span></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mt-5 pb-5">
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <img src="image/FTR-1.jpeg" class="card-img-top" alt="">
+                        <div class="card-body ladies-item">
+                            <h5>Blue Top</h5>
+                            <p>$56.00</p>
+                            <button class="btn btn-danger"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <img src="image/FTR-2.jpeg" class="card-img-top" alt="">
+                        <div class="card-body ladies-item">
+                            <h5>Black Top</h5>
+                            <p>$45.00</p>
+                            <button class="btn btn-danger"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <img src="image/FTR-3.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5>Purple Top</h5>
+                            <p>$43.00</p>
+                            <button class="btn btn-danger"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <img src="image/FTR-4.jpeg" class="card-img-top" alt="">
+                        <div class="card-body ladies-item">
+                            <h5>Red Top</h5>
+                            <p>$25.00</p>
+                            <button class="btn btn-danger"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- BLOG SECTION  -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <div class="title">
+                    <h3>FROM THE BLOG</h3>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="media mt-5 mb-2">
+                        <img src="image/b1.jpg " class="img-blog mr-4" alt="">
+                        <div class="media-body ">
+                            <h5>Jacket for the soul what...</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, illo.</p>
+                            <p><i class="fas fa-user mr-2"></i>admin Date:12-5-2021</p>
+                        </div>
+                    </div>
+                    <div class="media mt-5 mb-2">
+                        <img src="image/b2.jpg " class="img-blog mr-4" alt="">
+                        <div class="media-body">
+                            <h5>Latest trend for autumn are...</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non illo.</p>
+                            <p><i class="fas fa-user mr-2"></i>admin Date:22-3-2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="media mt-5 mb-2">
+                        <img src="image/b3.jpg " class="img-blog mr-4" alt="">
+                        <div class="media-body">
+                            <h5>Long ago?No longer adds...</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, illo.</p>
+                            <p><i class="fas fa-user mr-2"></i>admin Date:22-5-2021</p>
+                        </div>
+                    </div>
+                    <div class="media mt-5 mb-2">
+                        <img src="image/b4.jpg " class="img-blog mr-4" alt="">
+                        <div class="media-body">
+                            <h5>Best fabrics for deals</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, illo.</p>
+                            <p><i class="fas fa-user mr-2"></i>admin Date:27-8-2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TRENDS -->
+
+    <div class="container-fluid bg-light-gray">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="title">
+                    <h3>TRENDS</h3>
+                    <span></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mt-5 pb-5">
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <img src="image/T-1.jpeg" class="card-img-top" alt="">
+                        <div class="card-body ladies-item">
+                            <h5>Denin Shirt</h5>
+                            <p>$56.00</p>
+                            <button class="btn btn-warning"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <img src="image/T-2.jpeg" class="card-img-top" alt="">
+                        <div class="card-body ladies-item">
+                            <h5>White net</h5>
+                            <p>$45.00</p>
+                            <button class="btn btn-warning"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <img src="image/T-3.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5>Blue skirt</h5>
+                            <p>$43.00</p>
+                            <button class="btn btn-warning"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <img src="image/FTR-4.jpeg" class="card-img-top" alt="">
+                        <div class="card-body ladies-item">
+                            <h5>Purple bra</h5>
+                            <p>$25.00</p>
+                            <button class="btn btn-warning"><i class="fa fa-cart-plus mr-2"></i>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER SECTION  -->
+    <div class="container-fluid bg-dark text-light">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="title mb-4 mt-3">
+                        <h3>Meta</h3>
+                        <span class="bg-light"></span>
+                    </div>
+                    <div class="media-body ml-2">
+                        <i class="fas fa-angle-right"></i> <a href="#" class="text-light">Register</a>
+                    </div>
+                    <div class="media-body ml-2">
+                        <i class="fas fa-angle-right"></i> <a href="#" class="text-light">Log in</a>
+                    </div>
+                    <div class="media-body ml-2">
+                        <i class="fas fa-angle-right"></i> <a href="#" class="text-light">Enter RSS</a>
+                    </div>
+                    <div class="media-body ml-2">
+                        <i class="fas fa-angle-right"></i> <a href="#" class="text-light">Comment RSS</a>
+                    </div>
+                    <div class="media-body ml-2">
+                        <i class="fas fa-angle-right"></i> <a href="#" class="text-light">WEbseotips</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="title mb-4 mt-3">
+                        <h3>Recent post</h3>
+                        <span class="bg-light"></span>
+                    </div>
+                    <div class="media mb-3">
+                        <img src="image/b1.jpg" class="img-fit" alt="">
+                        <div class="media-body">
+                            <h6 class="ml-2">Jacket for the soul what...Lorem ipsum dolor sit amet.</h6>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <img src="image/b2.jpg" class="img-fit" alt="">
+                        <div class="media-body">
+                            <h6 class="ml-2">Jacket for the soul what... Lorem ipsum dolor sit amet. </h6>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="title mb-4 mt-3">
+                        <h3>About</h3>
+                        <span class="bg-light"></span>
+                    </div>
+                    <div class="about text-left">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque voluptatibus eum dolorum
+                        voluptatum, animi<br> rem, ducimus et hic quis ex exercitationem quisquam nobis, ipsa
+                        reprehenderit
+                        non neque aliquam impedit minus.
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="title mb-4 mt-3">
+                        <h3>Tags</h3>
+                        <span class="bg-light"></span>
+                    </div>
+                    <div class="tag">
+                        <a href="#" class="btn btn-outline-light m-1">Autumn</a>
+                        <a href="#" class="btn btn-outline-light m-1">Dress</a>
+                        <a href="#" class="btn btn-outline-light m-1">Fashion</a>
+                        <a href="#" class="btn btn-outline-light m-1">Ladies dress</a>
+                        <a href="#" class="btn btn-outline-light m-1">Black dress</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-info">
+        <p class="py-3 text-center">© 2016 Laundryes by Rudhi Sasmito - All Rights Reserved
+            <br>Created by safi ullah
+        </p>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000,
+        });
+    </script>
+
+
+
+</body>
+
+</html>
